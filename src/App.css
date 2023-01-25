@@ -59,3 +59,17 @@ img {
 	margin: 5px;
 	padding: 5px;
 }
+
+
+@media all and (max-width: 960px){
+	.App{
+		flex-direction: column;
+	}
+	img {
+		width: 300px;
+	}
+	.cartIcon {
+		width: 50px;
+	}
+		
+}
